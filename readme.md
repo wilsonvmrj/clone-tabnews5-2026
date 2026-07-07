@@ -26,3 +26,16 @@ npm install react@18.2.0
 ```
 npm install react-dom@18.2.0
 ```
+
+## Configurando o standardjs no projeto .
+
+Criara o arquivo `.editorconfig`
+
+```
+  root=true
+
+[*]
+indent_style = space
+indent_size = 2
+
+```
