@@ -39,3 +39,17 @@ indent_style = space
 indent_size = 2
 
 ```
+
+## Instalando e configurando o Prettier
+
+```
+npm install prettier -D
+```
+
+## Adicionar tambem no arquivo `package.json`
+
+```
+scripts{
+  "lint:check": "prettier --check ."
+}
+```
