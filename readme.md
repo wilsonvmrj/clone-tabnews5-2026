@@ -1,8 +1,12 @@
-Passo a passo do curso
+# Passo a passo do curso
 
+### Instalando a versao correta do nodejs :
+
+```
 nvm install 19.6.0
+```
 
-obs:
+**obs**:
 Aqui pode ser qualquer versão utilizada .
 
 -- Inicia o projeto com o npm init.
@@ -51,5 +55,41 @@ npm install prettier -D
 ```
 scripts{
   "lint:check": "prettier --check ."
+}
+```
+
+-- Milestone - 1 - Fundação
+
+## Estrutura de pastas:
+
+📦root/
+├──📂pages/
+│ └──📄index.js
+├──📂models/
+│ ├──📄users.js
+│ ├──📄content.js
+│ └──📄password.js
+├──📂infra/
+│ ├──📄database.js
+│ ├──📂migrations/
+│ └──📂provisioning/
+│ ├──📂staging/
+│ └──📂production/
+└──📂tests/
+
+## Testes automatizados
+
+### Instalando o Testrunner
+
+```
+npm install --save-dev jest@29.6.2
+
+```
+
+add on `package.json`
+
+```
+scripts: {
+  "test":"jest"
 }
 ```
