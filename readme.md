@@ -93,3 +93,9 @@ scripts: {
   "test":"jest"
 }
 ```
+
+### Indicação de curso de javascript:
+
+https://youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1
+
+## Aula.https://curso.dev/web/testes-automatizados-segundo-teste
