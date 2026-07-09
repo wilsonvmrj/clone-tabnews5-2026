@@ -100,4 +100,17 @@ https://youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1
 
 ## Banco de dados
 
+### criado docker compose do projeto
+
+```
+version: "3.8"
+services:
+  database:
+    image: postgres:16.0-alpine3.18
+    environment:
+      POSTGRES_PASSWORD: "local_password"
+    ports:
+      - "5432:5432"
+```
+
 ## Aula.https://curso.dev/web/testes-automatizados-segundo-teste
