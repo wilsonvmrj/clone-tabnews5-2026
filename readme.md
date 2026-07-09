@@ -98,4 +98,6 @@ scripts: {
 
 https://youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1
 
+## Banco de dados
+
 ## Aula.https://curso.dev/web/testes-automatizados-segundo-teste
