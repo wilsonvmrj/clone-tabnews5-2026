@@ -113,4 +113,10 @@ services:
       - "5432:5432"
 ```
 
+## Instalando lib conexão ao banco de dados
+
+```
+npm install pg@8.11.3
+```
+
 ## Aula.https://curso.dev/web/criar-modulo-database
