@@ -119,4 +119,18 @@ services:
 npm install pg@8.11.3
 ```
 
+## Definindo o root path:
+
+Criar o arquivo :
+jsconfig.json
+
+```
+{
+  "compilerOptions":{
+    "baseUrl": "."
+  }
+}
+
+```
+
 ## Aula.https://curso.dev/web/criar-modulo-database
