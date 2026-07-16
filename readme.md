@@ -133,4 +133,17 @@ jsconfig.json
 
 ```
 
+## Macete para buscar arquivos
+
+Busca difusa :
+CTRL + P e o nome do arquivo.
+Para procurar algo dentro do arquivo :
+CTRL+P nomedoarquivo@textodoondequerdigitar... CTRL+P+KG@scripts
+
+## Inciando o docker direto pelo scripts
+
+"scripts":{
+"services:up": "docker compose -f infra/compose.yaml up -d"
+}
+
 ## Aula.https://curso.dev/web/criar-modulo-database
