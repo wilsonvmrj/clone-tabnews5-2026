@@ -145,5 +145,26 @@ CTRL+P nomedoarquivo@textodoondequerdigitar... CTRL+P+KG@scripts
 "scripts":{
 "services:up": "docker compose -f infra/compose.yaml up -d"
 }
+##aqui documentar o infra/database.js
+
+# Migrations -- insatalando e configurando pacote
+
+```
+ npm install node-pg-migrate@6.2.2
+```
+
+```
+"scripts": {
+  "migration:create": "node-pg-migrate -m infra/migrations create"
+  "migration:up": "node-pg-migrate -m infra/migrations --envPath .env.development up"
+
+}
+```
+
+obs: aqui instalaremos o dotenv para leitura do arquivo .env.development
+
+```
+npm install dotenv@16.4.4
+```
 
 ## Aula.https://curso.dev/web/criar-modulo-database
