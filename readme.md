@@ -167,4 +167,15 @@ obs: aqui instalaremos o dotenv para leitura do arquivo .env.development
 npm install dotenv@16.4.4
 ```
 
-## Aula.https://curso.dev/web/criar-modulo-database
+obs2
+Aqui ele cria um arquivo para poder rodar as migrations via get e post, so que precisa ir na passar um array com o caminho das migrations, o nome da tabela, a direção(up ou down), habilita tambem o verbose isso tudo no arquivo index.js do migrations.
+
+## instalando o dotenv-expand
+
+Para interpolar variaveis no .env.development
+
+```
+ npm i dotenv-expand@11.0.6
+```
+
+## Aula.https://curso.dev/web/executando-migrations-endpoint-live-run-parte-2
