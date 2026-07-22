@@ -178,4 +178,4 @@ Para interpolar variaveis no .env.development
  npm i dotenv-expand@11.0.6
 ```
 
-## Aula.https://curso.dev/web/executando-migrations-endpoint-live-run-parte-2
+## Aula.https://curso.dev/web/estabilizar-npm-run-dev
