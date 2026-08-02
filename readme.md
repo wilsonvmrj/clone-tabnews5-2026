@@ -178,4 +178,16 @@ Para interpolar variaveis no .env.development
  npm i dotenv-expand@11.0.6
 ```
 
+## Verificacão da atualizacao de pacote comandos:
+
+```
+npm outdated
+```
+
+Para verificar o grau de criticidade das atualizacoes
+
+```
+npm audit
+```
+
 ## Aula.https://curso.dev/web/estabilizar-npm-run-dev
