@@ -190,4 +190,9 @@ Para verificar o grau de criticidade das atualizacoes
 npm audit
 ```
 
+Para atualizar o sistema npm-check-updates de maneira interativa
+```
+npx npm-check-updates -i  
+``` 
+
 ## Aula.https://curso.dev/web/estabilizar-npm-run-dev
